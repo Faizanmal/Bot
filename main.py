@@ -2,7 +2,6 @@ import requests
 import streamlit as st
 from datetime import datetime
 from storage import save_message, load_sessions, load_session_messages
-from config import API_KEY
 
 API_KEY = st.secrets['API_KEY']
 
